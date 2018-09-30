@@ -48,6 +48,29 @@ section.has-light-background {
 	}
 }
 
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.containercol {
+  flex: 1;
+  display: block;
+/*     display: table-cell; */
+/*     height: 400px; */
+  vertical-align: middle;
+/*   width: 1000px; */
+}
+
+.verticalcenter {
+  flex: 1;
+  display: block;
+/*     display: table-cell; */
+/*     height: 400px; */
+  vertical-align: middle;
+  width: 50px;
+}
+
 // Theme template ------------------------------
 @import "../../bower_components/reveal.js/css/theme/template/theme";
 // ---------------------------------------------
