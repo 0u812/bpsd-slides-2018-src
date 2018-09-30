@@ -1,0 +1,10 @@
+{
+  "generator-reveal": {
+    "presentationTitle": "Standards-driven Model Development",
+    "packageVersion": "0.1.0",
+    "useSass": true,
+    "deployToGithubPages": true,
+    "githubUsername": "0u812",
+    "githubRepository": "bpsd-slides-2018"
+  }
+}
