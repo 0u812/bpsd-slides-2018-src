@@ -1,5 +1,3 @@
--- ##  Systems Biology Models
-
 <img src="resources/kholo-gel.png" style="width:40%;height:auto"/>
 
 note:
