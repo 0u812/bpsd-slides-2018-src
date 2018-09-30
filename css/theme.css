@@ -25,7 +25,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
   /*     display: table-cell; */
   /*     height: 400px; */
   vertical-align: middle;
-  width: 50px; }
+  /*   width: 50px; */ }
 
 /*********************************************
  * GLOBAL STYLES
