@@ -15,6 +15,7 @@
 <span class="fragment fade-in" style="position:relative;top:-120px;font-size:2em;text-decoration: underline;color:#ff2c2d" data-fragment-index="4"> **BUT** </span>
 
 note:
+    ∙ We develop tools to support this kind of model. (standards)
     There are a number of reasons to use a standard encoding instead of
     coming up with ad-hoc Matlab code to run your model. Some reasons include:
     ∙ You can re-use smaller models by including them in bigger models, that's composability. For example, if you have a model of the EGFR pathway and the insulin

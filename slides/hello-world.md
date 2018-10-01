@@ -2,5 +2,4 @@
 <img src="resources/te-hello-world-3.gif"/>
 
 note:
-    Put your speaker notes here.
-    You can see them pressing 's'.
+    Allows you to break down your workflow into steps.

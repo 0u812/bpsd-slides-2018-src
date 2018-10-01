@@ -74,3 +74,25 @@ section.has-light-background {
 // Theme template ------------------------------
 @import "../../bower_components/reveal.js/css/theme/template/theme";
 // ---------------------------------------------
+
+img {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+
+.reveal section img {
+  margin: none;
+  background: none;
+  border: none;
+  box-shadow: none;
+}
+
+.reveal img {
+/*  max-width: none;
+  max-height: none;*/
+}
