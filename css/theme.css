@@ -311,7 +311,8 @@ img {
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline; }
+  /*   vertical-align: baseline; */
+  /*   opacity: 0.5; */ }
 
 .reveal section img {
   margin: none;
