@@ -14,3 +14,20 @@
 note:
     Put your speaker notes here.
     You can see them pressing 's'.
+
+    <script>
+          last_frag = null;
+          Reveal.addEventListener( 'fragmentshown', function( event ) {
+            if (event.fragment.classList.contains('viewmaster')) {
+              event.fragment.previous = last_frag;
+              last_frag = event.fragment;
+              if (event.fragment.previous) {
+                event.fragment.previous.style.opacity = 0;
+              }
+              event.fragment.style.transform = 'none';
+            }
+          } );
+          Reveal.addEventListener( 'fragmenthidden', function( event ) {
+            // event.fragment = the fragment DOM element
+          } );
+        </script>
