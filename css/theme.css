@@ -312,7 +312,7 @@ img {
   font-size: 100%;
   font: inherit;
   /*   vertical-align: baseline; */
-  opacity: 0.5; }
+  /*   opacity: 0.5; */ }
 
 .reveal section img {
   margin: none;
