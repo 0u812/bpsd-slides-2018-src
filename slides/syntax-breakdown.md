@@ -10,6 +10,7 @@
 <span style="position:absolute;top:290px;left:127px;" class="fragment grow" data-fragment-index="6"><img data-fragment-index="7" class="fragment shrink" src="resources/inline-omex-rxn-sedunif.png"/></span>
 <span style="position:absolute;top:325px;left:127px;" class="fragment grow" data-fragment-index="7"><img data-fragment-index="8" class="fragment shrink" src="resources/inline-omex-rxn-sedtask.png"/></span>
 <span style="position:absolute;top:353px;left:128px;" class="fragment grow" data-fragment-index="8"><img data-fragment-index="9" class="fragment shrink" src="resources/inline-omex-rxn-sedplot.png"/></span>
+<img class="fragment fade-in" data-fragment-index="9" style="position:absolute;top:200px;left:75px;" src="resources/inline-omex-output.png"/>
 </div>
 </div>
 

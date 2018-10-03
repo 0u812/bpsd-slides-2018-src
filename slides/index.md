@@ -1,10 +1,6 @@
 
-# Standards-driven Model Development
+# Enabling Better Standardized Modeling in Systems Biology
 
-From the terminal, pop in:
+Kyle Medley
 
-  ```yo reveal:slide "Slide Title"```
-
-Available options:
-
- ```--markdown --attributes --notes```
+BPSD 520 10/03/18

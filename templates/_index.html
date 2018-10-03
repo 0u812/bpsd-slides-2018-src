@@ -84,18 +84,37 @@
         </script>
         <script>
           last_frag = null;
+          last_phantom = null;
           Reveal.addEventListener( 'fragmentshown', function( event ) {
+            console.log('id',event.fragment.id,event.fragment.classList.contains('phantomfragment'));
             if (event.fragment.classList.contains('viewmaster')) {
               event.fragment.previous = last_frag;
               last_frag = event.fragment;
               if (event.fragment.previous) {
                 event.fragment.previous.style.opacity = 0;
               }
+              event.fragment.orig_transform = event.fragment.style.transform;
               event.fragment.style.transform = 'none';
+            }
+            if (event.fragment.classList.contains('phantomfragment')) {
+              event.fragment.previous = last_phantom;
+              console.log('id',event.fragment.id,'previous',!!event.fragment.previous);
+              if (event.fragment.previous) {
+                event.fragment.previous.style.opacity = 0;
+              }
+              last_phantom = event.fragment;
             }
           } );
           Reveal.addEventListener( 'fragmenthidden', function( event ) {
-            // event.fragment = the fragment DOM element
+            if (event.fragment.classList.contains('viewmaster')) {
+              event.fragment.style.transform = event.fragment.orig_transform;
+              event.fragment.previous.style.opacity = 1;
+            }
+            if (event.fragment.classList.contains('phantomfragment')) {
+              if (event.fragment.previous) {
+                event.fragment.previous.style.opacity = 1;
+              }
+            }
           } );
         </script>
     </body>
