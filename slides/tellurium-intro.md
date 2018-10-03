@@ -23,5 +23,8 @@
 
 
 note:
-    Put your speaker notes here.
-    You can see them pressing 's'.
+    ∙ Tellurium is an environment we developed to make working with standards easier.<br/>
+    ∙ The thing that ties Tellurium together is the Python language, which is a commonly used language in scientific research and it's easy to learn.
+    ∙ Tellurium supports standard encodings of models of course, that's its reason for existance.<br/>
+    ∙ Tellurium allows you to encode models in standards without technical knowledge of those standards.<br/>
+    ∙ It's designed to be used for research and teaching.
